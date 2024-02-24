@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span {
+    color: #1FE2E8;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active {
+    color: #1FC3E8;
+}
+
+.menu a:hover {
+    background-color: #1FC3E8;
+    color: #191c32;
+    transition: ease-in .3s;
+}
+
+.experiencia {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.experiencia img {
+    width: 21vw;
+    border: 7px solid #1FC3E8;
+    height: 80vh;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.contact-section {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.contact-heading h2 {
+    font-size: 3em;
+}
+
+.container-contect {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    grid-column: 2/3;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+    grid-column: 2/3;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #1FE2E8;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #fff;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 15vh;
+    background: #1FC3E8;
+}
+
+.footer-content h2{
+    font-size: 3em;
+}
+
+.footer-content h5{
+    font-size: 1.5em;
+}
