@@ -150,3 +150,26 @@ h2 {
 .footer-content h5{
     font-size: 1.5em;
 }
+
+@media screen and (max-width: 500px){
+    html, body {
+        font-size: 14px;
+        background: -webkit-linear-gradient(left, #191c32, #fff);
+    }
+    
+    .experiencia img { 
+        object-fit: cover;
+
+    }
+}
+
+@media screen and (max-width: 300px){
+    html, body {
+        font-size: 12px;
+        background: -webkit-gradient(left, #191c32, #fff);
+    }
+
+    .experiencia img {
+        object-fit: cover;
+    }
+}
