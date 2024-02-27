@@ -142,3 +142,25 @@ span {
     color: #191c32;
 }
 
+@media screen and (max-width: 500px){
+    html, body {
+        font-size: 14px;
+        background: -webkit-linear-gradient(left, #191c32, #fff);
+    }
+
+    main .img {
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 300px){
+    html, body {
+        font-size: 12px;
+        background: -webkit-gradient(left, #191c32, #fff);
+    }
+
+    main .img {
+        object-fit: cover;
+    }
+}
+
